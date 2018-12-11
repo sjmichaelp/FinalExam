@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+    <a href="/weather">Weather</a>
+    <a href="/gallery">Gallery</a>
+</head>
+
+<body>
+	<form enctype='application/json' action="/getimages" method="post">
+		keyword: <input type="text" name="keyword"><br>
+		<input type="submit" value="Submit">
+	</form>
+
+	<img src="{{image1}}" height="100px" width="100px"/>
+	<img src="{{image2}}" heihgt="100px" width="100px"/>
+	<img src="{{image3}}" heihgt="100px" width="100px"/>
+
+</body>
+
+</html>
